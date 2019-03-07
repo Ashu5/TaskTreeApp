@@ -8,4 +8,29 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="TaskAppTheme" parent="Theme.Design.Light">
+        <!-- Customize your theme here. -->
+        <item name="actionBarStyle">@style/TaskAppTheme.ActionBar</item>
+        <item name="colorPrimary">@color/fragmentColor</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TaskAppTheme.ActionBar" parent="Widget.AppCompat.Light.ActionBar">
+
+        <item name="android:titleTextStyle">@style/TaskAppTheme.ActionBar.TitleText</item>
+        <item name="titleTextStyle">@style/TaskAppTheme.ActionBar.TitleText</item>
+        <item name="background">@color/actionbarColor</item>
+        <item name="android:height">150dp</item>
+        <item name="height">60dp</item>
+    </style>
+
+    <style name="TaskAppTheme.ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textFontWeight">7dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
 </resources>
