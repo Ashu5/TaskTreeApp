@@ -3,4 +3,12 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="actionbarColor">#07a9c1</color>
+    <color name="fragmentColor">#ECF0F1</color>
+    <color name="buttonColor">#2471A3</color>
+    <color name="textColor">#FDFEFE</color>
+    <color name="bottom_nav">#E5E7E9</color>
+    <color name="bottom_nav_item">#34495E</color>
+
 </resources>
