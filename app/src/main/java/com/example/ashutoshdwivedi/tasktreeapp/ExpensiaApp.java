@@ -22,5 +22,12 @@ public static synchronized ExpensiaApp getInstance(){
     public void setConnectivityListener(ConnectivityReceiver.ConnectivityReceiverListener listener) {
         ConnectivityReceiver.connectivityReceiverListener = listener;
     }
+
+
+    public  interface ExpensiaAppController{
+        void onBindViews();
+    }
+
+
 }
 

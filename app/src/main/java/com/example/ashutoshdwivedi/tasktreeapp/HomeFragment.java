@@ -20,7 +20,7 @@ import androidx.recyclerview.widget.RecyclerView;
  * Use the {@link HomeFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class HomeFragment extends Fragment {
+public class HomeFragment extends Fragment  {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String TAG= HomeFragment.class.getSimpleName();
@@ -78,12 +78,8 @@ public class HomeFragment extends Fragment {
         return view;
     }
 
-    // TODO: Rename method, update argument and hook method into UI event
-    public void onButtonPressed(Uri uri) {
-        if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
-        }
-    }
+
+
 
     @Override
     public void onAttach(Context context) {
@@ -127,4 +123,15 @@ public class HomeFragment extends Fragment {
         }
         super.onDestroyView();
     }
+
+
+
+
+    public void onButtonPressed(Uri uri) {
+
+        if (mListener != null) {
+            mListener.onFragmentInteraction(uri);
+        }
+    }
+
 }
